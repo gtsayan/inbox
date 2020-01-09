@@ -1,0 +1,23 @@
+.empty-result {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    margin: 0 auto;
+
+}
+
+.empty-result__text {
+    color: #6596ff;
+    font-family: Rubik;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.empty-result__image {
+    background: url(../../../img/result/bg.png) center no-repeat;
+    background-size: auto;
+    height: 233px;
+}
