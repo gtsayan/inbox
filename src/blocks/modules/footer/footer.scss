@@ -13,12 +13,32 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-direction: row-reverse;
+    padding: 0 10px;
 }
 
-.footer__nav-item {
-    margin-left: 25px;
+.footer__nav {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    width: 100%;
+    max-width: 665px;
+    ;
+}
 
-    &:first-child {
-        margin-left: 0;
+
+
+@media (max-width: 1170px) {}
+
+@media (max-width: 450px) {
+    .footer__nav {
+        display: grid;
+        grid-template-columns: 0.8fr 1.2fr;
+        margin: 10px;
+    }
+
+    .footer__nav-item {
+        text-align: center;
+        // font-size: 14px;
+
     }
 }
